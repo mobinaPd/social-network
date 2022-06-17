@@ -1,0 +1,9 @@
+.like,
+.unlike,
+.likes_count {
+    color: blue;
+}
+
+.hide {
+    display: none;
+}

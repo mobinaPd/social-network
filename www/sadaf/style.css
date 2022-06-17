@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 0;
+}
+
+.div-radius-bl {
+    border-bottom-left-radius: 15px;
+}
+
+.div-radius-br {
+    border-bottom-right-radius: 15px;
+}
+
+.div-radius {
+    border-radius: 15px;
+}
+
+.div-radius-tl {
+    border-top-left-radius: 15px;
+}
+
+.div-radius-tr {
+    border-top-right-radius: 15px;
+}
+
+html {
+    scroll-behavior: smooth;
+    /* background-color: rgb(199, 252, 252); */
+    /* overflow-x: scroll; */
+    scrollbar-color: #97d0dfb7 #ffffffb7;
+    scrollbar-3dlight-color: #caf3fdb7;
+    scroll-behavior: smooth;
+    padding-bottom: 20px;
+}
+
+a {
+    color: rgb(92, 92, 92) !important;
+}
+
+.btn-primary {
+    background-color: #4f92eb;
+}
+
+.btn-primary:hover {
+    background-color: #4f92eb;
+}
+
+.hover-primary {
+    background-color: white;
+    color: rgb(100, 100, 100);
+}
+
+.hover-primary:hover {
+    background-color: #4f92eb;
+    color: white;
+}
+
+.cadr {
+    top: 0;
+}
+
+.x1 {
+    background-color: yellow;
+    width: 100%;
+    visibility: hidden;
+    /* opacity: 0; */
+    /* visibility: collapse; */
+    height: 300px;
+}
+
+.x2 {
+    width: 100%;
+    background-color: lightblue;
+    height: 300px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+p {
+    color: black;
+}
+
+.bg-primary-light {
+    background-color: #3797ff;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    background-color: gray;
+}
+
+.header div ul li:hover {
+    background-color: #489df8;
+}
+
+.shadow-bottom {
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.301);
+}
+
+.shadow-left {
+    box-shadow: -1px 0px 4px 0px rgba(0, 0, 0, 0.201);
+}
+
+.bg-dark-25 {
+    background-color: rgba(128, 128, 128, 0.15);
+}
+
+.border-none {
+    border: none;
+}
+
+.bg-none {
+    background: none;
+}
+
+#group-chats {
+    cursor: pointer;
+    border-bottom: black 1px solid;
+}
+
+#person-chats {
+    cursor: pointer;
+    border-bottom: black 1px solid;
+    /* visibility: hidden; */
+}
+
+#person-chats {
+    border-bottom: red 1px solid;
+}
+
+.titer {
+    color: rgb(92, 92, 92);
+    /* font-weight: bold; */
+    font-size: 14px;
+}
+
+.comment-holder {
+    border-color: rgba(128, 128, 128, 0.384);
+    border-radius: 15px;
+    border-top: none;
+    border-left: none;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.titer~p {
+    color: rgba(92, 92, 92, 0.719);
+    font-size: 14px;
+}
+
+.stories {
+    overflow-x: scroll;
+    scrollbar-color: #97d0dfb7 #ffffffb7;
+    scrollbar-3dlight-color: #caf3fdb7;
+    scroll-behavior: smooth;
+}
+
+
+/* .stories {
+    scrollbar-width: 100%;
+} */
+
+
+/* .stories div {
+    overflow: hidden;
+    overflow-x: scroll;
+} */
+
+.stories div::-webkit-scrollbar-track {
+    background-color: rgb(203, 244, 247);
+    height: 8px;
+    margin-bottom: -70px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.stories div::-webkit-scrollbar {
+    background-color: rgb(194, 245, 248);
+    height: 8px;
+    border-radius: 70px;
+    margin-bottom: -20px;
+    cursor: pointer;
+}
+
+.stories div::-webkit-scrollbar-thumb {
+    background-color: rgb(95, 207, 207);
+    border-radius: 70px;
+    height: 8px;
+    margin-bottom: -20px;
+    cursor: pointer;
+}
+
+.story {
+    min-width: 30%;
+    max-width: 30%;
+    /* min-height: 60%; */
+    /* max-height: 60%; */
+    border: dashed 2px rgba(189, 189, 189, 0.7);
+    margin-right: 3px;
+    border-radius: 10%;
+}
+
+#plus {
+    position: absolute;
+    margin-top: 100px;
+    cursor: pointer;
+    /* border: black 1px solid; */
+    /* border-radius: 50%; */
+    /* padding: 2%; */
+    /* opacity: 0.9; */
+}
+
+.trending {
+    /* height: 300px; */
+    font-size: 12px;
+}
+
+.profile img,
+.profile i {
+    max-width: 40px;
+    max-height: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+}
+
+.Mali {
+    border-color: #ccc;
+}
+
+.send {
+    border-radius: 20%;
+    min-height: 39px;
+    max-height: 39px;
+    text-align: center;
+    position: absolute;
+    width: 16%;
+    margin-left: -16%;
+    /*height: 35px;
+    width: 50px;
+    text-align: center;
+    ; */
+}
+
+.option {
+    border-radius: 30px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.welcome2 {
+    border-left: 3px solid darkblue;
+}
+
+.welcome {
+    border-left: 3px solid limegreen;
+}
+
+.menu img {
+    min-width: 20px;
+    max-width: 20px;
+    min-height: 20px;
+    max-height: 20px;
+    border-radius: 50%;
+}
+
+.menu p {
+    margin-bottom: 0;
+}
+
+#profile-post {
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    margin-left: -50px;
+}
+
+.detail-post p {
+    color: gray;
+}
+
+.detail a,
+.detail a i {
+    font-size: 16px;
+}
+
+.post-detail p {
+    margin-bottom: 0;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.post-detail {
+    padding: 2%;
+}
+
+.post-detail p a {
+    color: black;
+    text-decoration: none;
+}
+
+.side div a div:hover {
+    background-color: #ccc;
+}
+
+#online {
+    position: absolute;
+    flex-direction: column;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.pages {
+    overflow-x: scroll;
+    scrollbar-color: #97d0dfb7 #ffffffb7;
+    scrollbar-3dlight-color: #caf3fdb7;
+    scroll-behavior: smooth;
+}
+
+.comment div img {
+    max-width: 40px;
+    max-height: 40px;
+    min-height: 40px;
+    min-width: 40px;
+    border-radius: 50%;
+}
+
+.imgsmall {
+    max-width: 25px;
+    max-height: 25px;
+    min-height: 25px;
+    min-width: 25px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.profile-header {
+    max-width: 25px;
+    max-height: 25px;
+    min-height: 25px;
+    min-width: 25px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.bg-gray {
+    background-color: rgb(245, 245, 245);
+}
+
+.list ul {
+    list-style: none;
+}
+
+.list ul li img,
+.list ul li i {
+    height: 100%;
+    max-width: 60px;
+    max-height: 60px;
+    min-height: 60px;
+    min-width: 60px;
+}
+
+.list ul li {
+    border-bottom: white 1px solid;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+}
+
+.list ul li:hover {
+    background-color: rgb(244, 255, 255);
+    border-bottom: rgb(140, 211, 252) 1px solid;
+}
+
+.kadr {
+    border: 1px solid black;
+}
+
+.bg-primary-myself {
+    background-color: #2973c2;
+}
+
+.btn-primary-myself {
+    background-color: #2973c2;
+}

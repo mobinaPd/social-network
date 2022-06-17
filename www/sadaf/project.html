@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="" href="../bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="../jquery/jquery-3.4.1.min.js.txt"></script>
+    <style>
+        .btn-primary {
+            background-color: #4f92eb;
+        }
+        
+        .btn-primary:hover {
+            background-color: #4f92eb;
+        }
+        
+        .hover-primary {
+            background-color: white;
+            color: rgb(100, 100, 100);
+        }
+        
+        .hover-primary:hover {
+            background-color: #4f92eb;
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-color: azure;">
+
+<div class="person-chat justify-content-center " >
+                <div class="x1" style="visibility: hidden;">
+                    <div style="height:100px;" ></div>
+
+                        <p style="text-align: center;vertical-align: center;">sample text</p>
+                    </div>
+
+    </div></div>
+                <div class="group-chat" style="display: none;">
+                    <div class="x2">
+                        <div style="height:100px;" ></div>
+                        <p style="text-align: center;vertical-align: center;">sample text</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="d-flex  cadr justify-content-center" >
+                        <div class="col-6 px-4 py-2 tokyo" id="group-chats">
+                            <p>ToKyo</p>
+                        </div>
+                        <div class=" col-6 px-4 py-2 tokyo2" id="person-chats">
+                        <strong>ToKyo</strong>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-dark-25 w-100 my-2" style="height: 1px;"></div>
+            </div>
+    </body>
+    <script>
+        $(document).ready(function() {
+            var vis = false;
+            
+            $("#group-chats").click(function() {
+                $("#group-chats").css({
+                    "border-color": "red"
+                    //"background-color": "lightblue"
+                })
+                $(".tokyo").css({
+                    "background-color": "lightblue"
+                    //"background-color": "lightblue"
+                })
+                $("#person-chats").css({
+                    "border-color": "black"
+                })
+                $(".group-chat").show(200);
+                $(".group-chat").attr("background-color", "lightblue");
+                $(".person-chat").hide(200);
+$(".tokyo2").css({
+                    "background-color": "white"
+                    //"background-color": "lightblue"
+                })
+            });
+            $("#person-chats").click(function() {
+                $(".person-chat").show(200);
+                $(".group-chat").hide(200);
+                $("#group-pic").attr("src", "icons8-user-group-30.png");
+                $("#person-pic").attr("src", "icons8-person-30-red.png");
+                $("#group-chats").css({
+                    "border-color": "black"
+                })
+                $(".tokyo").css({
+                    "background-color": "white"
+                    //"background-color": "lightblue"
+                })
+                $(".tokyo2").css({
+                    "background-color": "yellow"
+                    //"background-color": "lightblue"
+                })
+                $("#person-chats").css({
+                    "border-color": "red"
+                })
+            });
+
+        });
+    </script>
+</html>

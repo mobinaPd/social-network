@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'HoloLens MDL2 Assets';
+}
+
+p {
+    color: white;
+    text-shadow: #000028;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.box .form input {
+    margin-top: 1%;
+}
+
+.btnup {
+    background-color: #000020;
+    color: white;
+    border: #8080c0 2px solid;
+    padding: 2%;
+    margin-left: 45%;
+    box-shadow: 1px 1px 1px 0 rgb(0, 0, 0, 0.5);
+    transition: all 1.5s;
+}
+
+.btnup:hover {
+    background: none;
+    color: darkblue;
+    border: #400080 2px solid;
+    box-shadow: 1px 1px 1px 0 rgb(0, 0, 10, 0.5);
+}
